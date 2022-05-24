@@ -10,6 +10,6 @@ def is_jolly(arr):
             return "Jolly"
         else:
             return "Not jolly"
-
+# input string is digits with separator by space
 arr = input()
 print(is_jolly(arr))
